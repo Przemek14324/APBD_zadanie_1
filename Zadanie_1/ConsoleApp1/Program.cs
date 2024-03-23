@@ -8,11 +8,11 @@ public class Program
         Console.WriteLine("hello world");
         Console.WriteLine("Goodbye world :(");
         int[] sampleNumbers = { 1, 2, 3, 4, 5 };
-        double average = CalculateAverage(sampleNumbers);
+        double average = CalculateAverageZmiana(sampleNumbers);
         Console.WriteLine($"The average is: {average}");
         Console.WriteLine("koniec zadan");
     }
-    public static double CalculateAverage(int[] numbers)
+    public static double CalculateAverageZmiana(int[] numbers)
     {
         return numbers.Average();
     }
@@ -20,6 +20,6 @@ public class Program
     {
         return numbers.Max();
     }
-    // To jest nowy komentarz
+  
 
 }
